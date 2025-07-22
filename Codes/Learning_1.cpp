@@ -6,6 +6,6 @@ using namespace std;
 
 int main()
 {
-    
+    //This is just a trial line with vim. 
     return 0;
 }
