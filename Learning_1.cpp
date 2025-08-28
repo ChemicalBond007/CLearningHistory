@@ -1,16 +1,11 @@
 #include <stdio.h>
-#include <string.h>
-#include <float.h>
  
-void printconst(char* input)
+int main ()
 {
-   const char *strings=strcat(input,"\n");
-   printf(strings);
-}
-int main()
-{
-   char in[50];
-   scanf("%s",in);
-   printconst((char*)in);
+   int a = 10;
+   int * ptra=&a;
+   printf("The location of a is %p.\n", ptra);
+   *ptra=++a;
+   printf("The location of ++a is %p.\n", ptra);
    return 0;
 }
