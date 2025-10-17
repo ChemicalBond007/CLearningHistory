@@ -1,6 +1,8 @@
 #include <stdio.h>
-#include <math.h>
+#include <stdlib.h>
+
 int main(){
-    double a=exp(10);
-    printf("%lf",a);
+    int a;
+    printf("%d",scanf("%d",&a));
+    return 0;
 }
